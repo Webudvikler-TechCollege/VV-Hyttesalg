@@ -38,6 +38,10 @@ export default function Popup({ handlePopup, setPopup }) {
                 &nbsp; Der er numre på husene, og vi opfordrer til, at du kører
                 forbi og ser, hvilket nummer du gerne vil have.
               </p>
+              <p>Kontakt:<br />
+              Værkstedsassistent Tom<br />
+              Tlf. 2526 6185<br />
+              Mail: <a href="mailto:tohe@techcollege.dk">tohe@techcollege.dk</a></p>
               <button className="popup-btn" onClick={() => handleExit()}>
                 FORSÆT
               </button>
